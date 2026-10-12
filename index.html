@@ -1,0 +1,19 @@
+<html><body style="background:#0a0a0a;color:#0f0;font-family:monospace;padding:30px">
+<h1>☠️ GHASTLY LAB - DASHBOARD</h1>
+<p>> Location: Abuja, NG | Time: <span id="t"></span></p>
+<hr>
+<h3>TOOLS STATUS</h3>
+<p>✅ Web Server: ONLINE</p>
+<p>✅ Python Lab: READY</p>
+<p>✅ PHP Engine: 8.5.1</p>
+<p>✅ pro.py Scanner: READY</p>
+<hr>
+<h3>LAB COMMANDS</h3>
+<pre>
+python pro.py       -> Run scanner
+php -S localhost:8080 -> Start website
+nmap scanme.nmap.org -> Ethical test
+</pre>
+<button onclick="alert('Ghastly Lab Ready!')" style="background:#0f0;color:black;padding:10px 20px;border:none;cursor:pointer">TEST SYSTEM</button>
+<script>setInterval(()=>{document.getElementById('t').innerText=new Date().toLocaleString()},1000)</script>
+</body></html>
